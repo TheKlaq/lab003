@@ -1,20 +1,51 @@
-// lab003.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
 
 #include <iostream>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	using namespace std;
+
+	/*int opcja;
+	cin >> opcja;
+	switch (opcja) {
+		case 1:
+			cout << "Wybrano opcje 1\n";
+			break;
+		case 2:	
+			cout << "Wybrano opcje 2\n";
+			break;	
+				
+			default:
+				cout << "Niepoprawna opcja\n";
+				break;	*/
+
+	// Zadania
+	//Zad 1. Napisz program, który poprosi u¿ytkownika o wprowadzenie z klawiatury dwóch wartoœci dla zmiennych
+		//ca³kowitych a i b.Nastêpnie program powinien sprawdziæ czy wprowadzone liczby s¹ sobie równe, jeœli tak jest
+		//to kod wyœwietla odpowiedni komunikat.Jeœli a i b nie s¹ sobie równe to program powinien sprawdziæ czy a < b.
+		//Jeœli a < b jest to kod wyœwietla odpowiedni komunikat.W innym wypadku program powinien wyœwietliæ, ¿e
+		//a > b
+
+
+	int a, b;
+
+	cout << "Podaj dwie liczby calkowite: << endl;
+	cin >> a >> b endl;
+	if (a == b) {
+		cout << "Liczby sa sobie rowne" << endl;
+	}
+	else if (a < b) {
+		cout << "Liczba a jest mniejsza od liczby" << endl;
+	}
+	else {
+		cout << "Liczba a jest wieksza od liczby b" << endl;
+
+
+	}
+	
+	
+
+	
+    cout << "Hello World!\n";
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
